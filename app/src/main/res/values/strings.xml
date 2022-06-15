@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MyAppProyekHary1901010046</string>
+    <string name="deskripsi">Biodata</string>
+    <string name="action_settings">Settings</string>
+    <string name="nomor">Nomor:</string>
+    <string name="nama_lengkap">Nama Lengkap:</string>
+    <string name="jenis_kelamin">Jenis Kelamin:</string>
+    <string name="tempat_lahir">Tempat Lahir:</string>
+    <string name="tanggal_lahir">Tanggal Lahir</string>
+    <string name="alamat">Alamat:</string>
+    <string name="save">SAVE</string>
+    <string name="delete">DELETE</string>
+    <string-array name="jenis_kelamin">
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+    <string name="previous">Previous</string>
+    <string name="nxet">Nxet</string>
+    <string name="isi_huruf">Isi Huruf</string>
+    <string name="isi_angka">Isi Angka</string>
+</resources>
