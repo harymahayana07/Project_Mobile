@@ -43,6 +43,10 @@ public class MainUtama extends AppCompatActivity implements View.OnClickListener
                 Intent balokIntent = new Intent(MainUtama.this, VolumeBalok.class);
                 startActivity(balokIntent);
                 break;
+            case R.id.btn_bola:
+                Intent bolaIntent = new Intent(MainUtama.this, VolumeBola.class);
+                startActivity(bolaIntent);
+                break;
 
         }
     }

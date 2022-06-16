@@ -23,6 +23,7 @@
     <string name="calculate">Hitung</string>
     <string name="result">Hasil</string>
     <string name="length">Panjang</string>
+    <string name="jariJari">Jari-Jari</string>
     <string name="biodata_app">Crud Biodata Sederhana</string>
     <string name="volume_balok_app">Hitung Volume Balok</string>
     <string name="volume_bola_app">Hitung Volume Bola</string>

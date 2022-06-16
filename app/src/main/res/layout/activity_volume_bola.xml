@@ -7,49 +7,31 @@
     android:layout_height="match_parent"
     android:padding="16dp"
     android:orientation="vertical"
-    tools:context=".VolumeBalok">
+    tools:context=".VolumeBola">
     <androidx.appcompat.widget.LinearLayoutCompat
-        android:layout_width="320dp"
+        android:layout_width="250dp"
         android:layout_height="230dp"
         android:layout_gravity="center"
         android:layout_marginBottom="20dp"
-        android:background="@drawable/bangun_balok"
+        android:background="@drawable/bangun_bola"
         ></androidx.appcompat.widget.LinearLayoutCompat>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/length" />
+        android:text="@string/jariJari" />
     <EditText
-        android:id="@+id/edt_length"
+        android:id="@+id/edt_jari"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:lines="1" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/width" />
-    <EditText
-        android:id="@+id/edt_width"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="numberDecimal"
-        android:lines="1" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/height" />
-    <EditText
-        android:id="@+id/edt_height"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="numberDecimal"
-        android:lines="1" />
+
     <Button
         android:id="@+id/btn_calculate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Hitung" />
+
     <TextView
         android:id="@+id/tv_result"
         android:layout_width="match_parent"
@@ -58,5 +40,4 @@
         android:text="@string/result"
         android:textSize="24sp"
         android:textStyle="bold" />
-
 </LinearLayout>
