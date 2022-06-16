@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainUtama">
+
+    <androidx.cardview.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardBackgroundColor="@color/purple_200"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:id="@+id/info_text"
+            android:layout_marginTop="9dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAlignment="center"
+            android:text="Selamat Datang Session nama??"/>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_biodata"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/biodata_app" />
+    <Button
+        android:id="@+id/btn_balok"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/volume_balok_app" />
+    <Button
+        android:id="@+id/btn_bola"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/volume_bola_app" />
+    <Button
+        android:id="@+id/btn_notepad"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/notepad" />
+    <Button
+        android:id="@+id/btn_kalkulator"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/kalkulator" />
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="110dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/black"
+        android:text="@string/logout" />
+
+</LinearLayout>

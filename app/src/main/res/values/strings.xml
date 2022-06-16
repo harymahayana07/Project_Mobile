@@ -18,4 +18,16 @@
     <string name="nxet">Nxet</string>
     <string name="isi_huruf">Isi Huruf</string>
     <string name="isi_angka">Isi Angka</string>
+    <string name="width">Lebar</string>
+    <string name="height">Tinggi</string>
+    <string name="calculate">Hitung</string>
+    <string name="result">Hasil</string>
+    <string name="length">Panjang</string>
+    <string name="biodata_app">Crud Biodata Sederhana</string>
+    <string name="volume_balok_app">Hitung Volume Balok</string>
+    <string name="volume_bola_app">Hitung Volume Bola</string>
+    <string name="notepad">Notepad Sederhana</string>
+    <string name="kalkulator">Kalkulator</string>
+    <string name="logout">Logout</string>
+
 </resources>
