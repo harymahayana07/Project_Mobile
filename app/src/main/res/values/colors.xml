@@ -7,4 +7,13 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <!--    custom color untuk button-->
+    <color name="colorPrimary">#FF7F50</color>
+    <color name="colorPrimaryDark">#373331</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorWhite">#FFFFFFFF</color>
+    <color name="orange">#FF7F50</color>
+    <color name="buttonDefault">#373331</color>
+    <color name="buttonClicked">#03DAC5</color>
+    <color name="buttonFocused">#03DAC5</color>
 </resources>
