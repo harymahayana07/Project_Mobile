@@ -5,61 +5,186 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp"
+    android:padding="10dp"
+    android:background="#808080"
+
     tools:context=".MainUtama">
 
-    <androidx.cardview.widget.CardView
-        xmlns:card_view="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/card_view"
-        android:layout_gravity="center"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="40dp"
-        card_view:cardCornerRadius="4dp"
-        card_view:cardBackgroundColor="@color/purple_200"
-        android:layout_marginTop="40dp"
-        android:layout_marginBottom="20dp">
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:clipToPadding="false">
+    <androidx.cardview.widget.CardView
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="10dp"
+        android:foreground="?attr/selectableItemBackground"
+        android:clickable="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+          >
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:background="@drawable/ic_user_circle"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                />
         <TextView
-            android:id="@+id/info_text"
-            android:layout_marginTop="9dp"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:textAlignment="center"
-            android:text="Selamat Datang Session nama??"/>
+            android:layout_marginBottom="9dp"
+            android:text="BIODATA"/>
+            <Button
+                android:id="@+id/btn_biodata"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="4dp"
+                android:text="Go" />
+        </LinearLayout>
     </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="20dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/ic_square"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"
+                    />
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="9dp"
+                    android:text="VOLUME BALOK"/>
+                <Button
+                    android:id="@+id/btn_balok"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="Go" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:clipToPadding="false">
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="10dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/ic_ball"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"
+                    />
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="9dp"
+                    android:text="VOLUME BOLA"/>
+                <Button
+                    android:id="@+id/btn_bola"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="Go" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="20dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/ic_calculator"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"
+                    />
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="9dp"
+                    android:text="KALKULATOR"/>
+                <Button
+                    android:id="@+id/btn_kalkulator"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="Go" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
 
     <Button
-        android:id="@+id/btn_biodata"
+        android:id="@+id/btn_logout"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:layout_marginBottom="16dp"
-        android:text="@string/biodata_app" />
-    <Button
-        android:id="@+id/btn_balok"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:layout_marginBottom="16dp"
-        android:text="@string/volume_balok_app" />
-    <Button
-        android:id="@+id/btn_bola"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:layout_marginBottom="16dp"
-        android:text="@string/volume_bola_app" />
-    <Button
-        android:id="@+id/btn_notepad"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:layout_marginBottom="16dp"
-        android:text="@string/notepad" />
-    <Button
-        android:id="@+id/btn_kalkulator"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:layout_marginBottom="16dp"
-        android:text="@string/kalkulator" />
-    <Button
-        android:id="@+id/logout"
-        android:layout_width="110dp"
+        android:layout_margin="25dp"
         android:layout_height="70dp"
         android:layout_marginBottom="16dp"
         android:textColor="@color/black"
