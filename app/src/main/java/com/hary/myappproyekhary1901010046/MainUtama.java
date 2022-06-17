@@ -6,6 +6,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 
 public class MainUtama extends AppCompatActivity implements View.OnClickListener {
@@ -52,6 +53,7 @@ public class MainUtama extends AppCompatActivity implements View.OnClickListener
                 startActivity(kalkulatorIntent);
                 break;
             case R.id.btn_logout:
+                Toast.makeText(getApplicationContext(), "Berhasil Keluar", Toast.LENGTH_SHORT).show();
                 Intent logoutIntent = new Intent(MainUtama.this, SignUpActivity.class);
                 startActivity(logoutIntent);
                 finish();

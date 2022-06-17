@@ -9,6 +9,12 @@
     android:background="#1B7BA6"
     android:orientation="vertical"
     tools:context=".SignUpActivity">
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:background="@drawable/user_man"
+        />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -17,8 +23,8 @@
         android:textSize="50dp"
         android:textStyle="bold"
         android:gravity="center_horizontal"
-        android:layout_marginTop="40dp"
-        android:layout_marginBottom="50dp"/>
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="50dp"
