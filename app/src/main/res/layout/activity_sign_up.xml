@@ -40,6 +40,7 @@
         android:layout_height="50dp"
         android:id="@+id/password"
         android:hint="Password"
+        android:inputType="textPassword"
         android:textSize="25dp"
         android:textColorHint="@color/black"
         android:background="@drawable/edittextbackground"
@@ -49,6 +50,7 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:id="@+id/repassword"
+        android:inputType="textPassword"
         android:hint="Confirm Password"
         android:textSize="25dp"
         android:textColorHint="@color/black"
@@ -60,6 +62,7 @@
         android:layout_height="60dp"
         android:id="@+id/signup"
         android:text="register"
+        android:textColor="@color/white"
         android:textSize="20dp"
         android:backgroundTint="@color/black"
         android:layout_marginBottom="30dp"/>

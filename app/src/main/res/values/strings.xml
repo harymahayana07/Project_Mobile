@@ -30,5 +30,12 @@
     <string name="notepad">Notepad Sederhana</string>
     <string name="kalkulator">Kalkulator</string>
     <string name="logout">Logout</string>
+    <string name="nama">Nama : I Made Hary Mahayana</string>
+    <string name="nim">Nim : 1901010046</string>
+    <string name="suku_ayah"> Suku Ayah : Bali </string>
+    <string name="suku_ibu"> Suku Ibu : Bali </string>
+    <string name="hobi"> Hobi : Ngoding Dan mencari pengalaman baru</string>
+    <string name="cita"> Cita-Cita : Programmer Handal</string>
+    <string name="no_hp"> No.Hp/Wa : 087851410149 </string>
 
 </resources>

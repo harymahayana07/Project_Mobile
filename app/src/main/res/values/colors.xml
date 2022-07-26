@@ -16,4 +16,6 @@
     <color name="buttonDefault">#373331</color>
     <color name="buttonClicked">#03DAC5</color>
     <color name="buttonFocused">#03DAC5</color>
+    <color name="colorMain">#CECBD4</color>
+    <color name="colorX">#D9D4E3</color>
 </resources>

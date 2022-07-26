@@ -29,6 +29,9 @@ public class MainUtama extends AppCompatActivity implements View.OnClickListener
         Button btnKalkulator = findViewById(R.id.btn_kalkulator);
         btnKalkulator.setOnClickListener(this);
 
+        Button btnContact = findViewById(R.id.btn_contact);
+        btnContact.setOnClickListener(this);
+
         Button btnLogout = findViewById(R.id.btn_logout);
         btnLogout.setOnClickListener(this);
     }
@@ -51,6 +54,10 @@ public class MainUtama extends AppCompatActivity implements View.OnClickListener
             case R.id.btn_kalkulator:
                 Intent kalkulatorIntent = new Intent(MainUtama.this, Kalkulator.class);
                 startActivity(kalkulatorIntent);
+                break;
+            case R.id.btn_contact:
+                Intent contactIntent = new Intent(MainUtama.this, ContactMe.class);
+                startActivity(contactIntent);
                 break;
             case R.id.btn_logout:
                 Toast.makeText(getApplicationContext(), "Berhasil Keluar", Toast.LENGTH_SHORT).show();

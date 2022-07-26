@@ -6,21 +6,20 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="10dp"
-    android:background="#808080"
-
+    android:background="@color/colorMain"
     tools:context=".MainUtama">
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:gravity="center"
         android:clipToPadding="false">
     <androidx.cardview.widget.CardView
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="@color/colorX"
         android:layout_margin="10dp"
         android:foreground="?attr/selectableItemBackground"
         android:clickable="true">
@@ -60,6 +59,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             app:cardCornerRadius="20dp"
+            app:cardBackgroundColor="@color/colorX"
             android:foreground="?attr/selectableItemBackground"
             android:clickable="true">
             <LinearLayout
@@ -105,6 +105,7 @@
             android:layout_width="160dp"
             android:layout_height="wrap_content"
             app:cardCornerRadius="20dp"
+            app:cardBackgroundColor="@color/colorX"
             android:layout_margin="10dp"
             android:foreground="?attr/selectableItemBackground"
             android:clickable="true">
@@ -144,6 +145,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             app:cardCornerRadius="20dp"
+            app:cardBackgroundColor="@color/colorX"
             android:foreground="?attr/selectableItemBackground"
             android:clickable="true">
             <LinearLayout
@@ -177,10 +179,53 @@
                     android:text="Go" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
-
     </LinearLayout>
-
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:clipToPadding="false">
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+            app:cardBackgroundColor="@color/colorX"
+            android:layout_margin="10dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/ic_profile_diri"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"
+                    />
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="9dp"
+                    android:text="Contact Me"/>
+                <Button
+                    android:id="@+id/btn_contact"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="Go" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
     <Button
         android:id="@+id/btn_logout"
         android:layout_width="match_parent"
@@ -189,5 +234,4 @@
         android:layout_marginBottom="16dp"
         android:textColor="@color/black"
         android:text="@string/logout" />
-
 </LinearLayout>
